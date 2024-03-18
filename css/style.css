@@ -31,8 +31,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 4rem;
+    padding: 2.4rem;
     border-bottom: 1px solid #fff;
+    /* position: sticky;
+    top: 0; */
+    align-items: center;
+}
+
+.main-header .header-tittle {
+    margin-bottom: 1.5rem;
 }
 
 .main-header .main-nav {
