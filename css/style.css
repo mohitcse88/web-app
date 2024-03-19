@@ -38,7 +38,7 @@ ul{
 /* anchor */
 a {
     text-decoration: none;
-    color: lightseagreen;
+    color: #fff;
 }
 
 /****************** header *********************/
@@ -48,8 +48,6 @@ a {
     justify-content: space-around;
     padding: 2.4rem;
     border-bottom: 1px solid #fff;
-    /* position: sticky;
-    top: 0; */
     align-items: center;
 }
 
@@ -73,8 +71,12 @@ a {
 
 .nav-item a {
     white-space: nowrap;
+   
 }
-
+.nav-item a,
+.user-nav a {
+    color: lightseagreen;
+}
 /*************** main ****************/
 .main {
     margin-top: 2rem;
