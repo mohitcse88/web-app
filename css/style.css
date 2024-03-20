@@ -118,8 +118,12 @@ a {
     margin-bottom: 1rem;
 }
 
-.section-wrapper .item div{
+.section-wrapper .item div {
     text-align: center;
+}
+.section-wrapper .item div img{
+    border-radius: 50px;
+    background-color: #fff;    
 }
 
 .item-description {
