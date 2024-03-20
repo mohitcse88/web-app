@@ -89,7 +89,7 @@ a {
 .section-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .section-wrapper .item {
@@ -124,6 +124,12 @@ a {
     margin: 2rem auto;
 }
 
+.footer-section .footer-info {
+    margin-top: 1rem;
+}
+
+
+
 .footer-content {
     display: flex;
     justify-content: space-around;
@@ -140,7 +146,7 @@ a {
     line-height: 3rem;
 }
 
-
+.footer-info i,
 .footer-list i{
     margin-right: 0.5rem;
     font-size: 2rem;
