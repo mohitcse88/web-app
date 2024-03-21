@@ -188,4 +188,29 @@ a {
     text-align: center;
 }
  
+/* product */
+.comming-soon {
+    text-align: center;
+    margin: 6rem 0;
+}
 
+/* Contact Us */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-email {
+    height: 60px;
+    width: 200px;
+    background-color: #1e293b;
+    border: 2px solid #888;
+    border-radius: 1rem;
+}
+
+.contact-submit {
+    width: 100px;
+    border-radius: 0.5rem;
+}
