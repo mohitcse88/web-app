@@ -84,6 +84,9 @@ a {
     border-bottom: 1px solid #fff;
 }
 
+.main .article img{
+    border-radius: 16px;
+}
 .article .article-title {
     text-align: center;
 }
